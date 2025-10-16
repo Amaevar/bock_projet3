@@ -126,6 +126,11 @@ p.subtitle {
     font-size: 14px;
 }
 
+.box{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
 
 .activites {
     display: flex;
