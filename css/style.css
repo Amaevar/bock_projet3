@@ -162,7 +162,7 @@ p.subtitle {
 }
 
 .paper {
-    width:240px;
+    width: 270px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -449,7 +449,6 @@ a {
     .styles:hover {
         color: #0065FC;
         border-top: none;
-        padding-top: none;
         border-bottom: 3px solid #0065FC;
         padding-bottom: 25px;
 
