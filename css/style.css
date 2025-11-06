@@ -494,12 +494,6 @@ a {
         justify-content: center;
     }
 
-    .styles:hover {
-        color: #007bff;
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-        padding-bottom: 25px;
-    }
 
     .logo {
         display: flex;
