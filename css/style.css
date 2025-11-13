@@ -117,7 +117,7 @@ p.subtitle {
 .filter-btn {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
     border: 1px solid #c5c4c4;
     background: #ffffff;
     color: #000000;
@@ -126,6 +126,7 @@ p.subtitle {
     font-size: 15px;
     cursor: pointer;
     transition: all 0.2s ease;
+    font-weight: bold;
 }
 
 .filter-btn:hover {
@@ -352,6 +353,7 @@ a {
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+
 }
 
 .populaires-cards img {
@@ -361,6 +363,9 @@ a {
     border-bottom-left-radius: 20px;
 }
 
+.populaires-cards img {
+        border-top-right-radius: 0px;
+    }
 
 .populaires-cards .card-content {
     width: 65%;
@@ -422,8 +427,6 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-
-
 
     .activites {
         display: flex;
@@ -527,7 +530,6 @@ a {
         flex-direction: row;
         align-items: start;
         width: 47%;
-        gap: 1px;
     }
 
     .search-container {
@@ -606,9 +608,6 @@ a {
         font-size: 13px;
     }
 
-    .populaires-cards img {
-        border-top-right-radius: 0px;
-    }
 
     .cards-container {
         display: flex;
