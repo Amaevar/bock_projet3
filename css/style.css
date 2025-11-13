@@ -361,6 +361,7 @@ a {
     border-bottom-left-radius: 20px;
 }
 
+
 .populaires-cards .card-content {
     width: 65%;
     padding-left: 15px;
@@ -422,6 +423,8 @@ a {
         font-size: 13px;
     }
 
+
+
     .activites {
         display: flex;
         flex-wrap: nowrap;
@@ -462,25 +465,33 @@ a {
         width: 100%;
         padding-inline-start: 0;
         gap: 0;
+        margin-block-start: 1em;
+        margin-block-end: 0;
     }
 
     .style li {
-        width: 50%;
         display: flex;
-        justify-content: center;
-        border-bottom: 3px solid rgb(217, 217, 217);
-        padding: 10px 0;
-        padding-bottom: 25px;
     }
 
-    .style li:hover {
-        border-bottom: 3px solid #0065FC;
-        color: #0065FC;
+    .styles {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        border-bottom: 3px solid rgb(217, 217, 217);
+        align-items: center;
     }
 
     .styles:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
         border-top: 0;
         padding-top: 0;
+    }
+
+    .styles span {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 18px;
     }
 
     .navbar a {
@@ -515,10 +526,12 @@ a {
         display: flex;
         flex-direction: row;
         align-items: start;
-        width: 150px;
+        width: 47%;
+        gap: 1px;
     }
 
     .search-container {
+        width: 90%;
         margin: 20px;
     }
 
@@ -567,9 +580,11 @@ a {
     }
 
     .populaires {
+        margin-top: 10px;
         border-radius: 0px;
         height: 100%;
         width: 100%;
+        padding: 15px;
 
     }
 
@@ -591,6 +606,10 @@ a {
         font-size: 13px;
     }
 
+    .populaires-cards img {
+        border-top-right-radius: 0px;
+    }
+
     .cards-container {
         display: flex;
         flex-direction: column;
@@ -599,6 +618,7 @@ a {
 
     .hebergements {
         background: none;
+        padding: 20px;
     }
 
 
@@ -609,7 +629,7 @@ a {
     .activites {
         display: flex;
         flex-direction: column;
-        padding: 30px;
+        align-items: center;
     }
 
     .paper {
@@ -623,14 +643,12 @@ a {
     }
 
     .paper p {
-        padding: 20px;
-        margin: 10px;
+        padding: 10px;
     }
 
     footer {
         display: flex;
         flex-direction: column;
         text-align: start;
-
     }
 }
